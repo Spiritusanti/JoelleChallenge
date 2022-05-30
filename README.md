@@ -7,7 +7,7 @@ Complete a fully functional website devoted to cats!
 ##### resources:
 - Figma design template: https://www.figma.com/file/SGsrBCfXKurKsuzFbzSr70/Joelle---week-1-challenge?node-id=0%3A1
 - all images are included in assests folder
-- anything technical reference you need (MDN, W3C, StackOverflow, ect)
+- any technical reference you need (MDN, W3C, StackOverflow, ect)
 #### tasks: 
 1. create Header + Nav to design specifications
    1. should include a clickable logo that links back to the homepage
