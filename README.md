@@ -3,12 +3,28 @@
 ### Goal:
 Complete a fully functional website devoted to cats!
 
+#### week 2 challenge
+-implement changes to existing work based on feedback
+
+##### resources:
+- semantic html: https://www.w3schools.com/html/html5_semantic_elements.asp, and https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML
+- CSS flexbox and Grid: 
+  - Kevin Powell Get started with grid WITHOUT being overwhelmed: https://www.youtube.com/watch?v=8QSqwbSztnA
+  - Kevin Powell Learn flexbox the easy way: https://www.youtube.com/watch?v=u044iM9xsWU
+  - MDN Grid lesson: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
+  - MDN flexbox lesson: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+##### tasks:
+1. Implement semantic HTML using appropriate tags for the content being displayed.
+2. Move hero image from a css background image to an html img tag. Use position: absolute and z-index to mirror figma layout. 
+3. Use either CSS Grid or Flexbox to replace float styles for header list elements.
+4. create new pull request under Week 2 challenge issue in main repo.
+
 #### Week 1 Challenge
 ##### resources:
 - Figma design template: https://www.figma.com/file/SGsrBCfXKurKsuzFbzSr70/Joelle---week-1-challenge?node-id=0%3A1
 - all images are included in assests folder
 - any technical reference you need (MDN, W3C, StackOverflow, ect)
-#### tasks: 
+##### tasks: 
 1. create Header + Nav to design specifications
    1. should include a clickable logo that links back to the homepage
    2. contains a nav with the options from Figma that links to future elements of the site (can use '#' as a placeholder for href this week)
