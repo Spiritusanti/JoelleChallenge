@@ -1,3 +1,5 @@
+/* we want to be very careful when applying styles to elements globally like this as it can interfere with other styles down the line.
+Better solution is to use "pure selectors" (i.e. classnames, ids, etc) to style different elements and reserve global styling for things like typography */
 ul {
     list-style-type: none;
     margin: 0;
