@@ -8,6 +8,7 @@ Complete a fully functional website devoted to cats!
 
 ##### resources:
 - semantic html: https://www.w3schools.com/html/html5_semantic_elements.asp, and https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML
+- font sizes: https://www.w3schools.com/CSSref/css_units.asp
 - CSS flexbox and Grid: 
   - Kevin Powell Get started with grid WITHOUT being overwhelmed: https://www.youtube.com/watch?v=8QSqwbSztnA
   - Kevin Powell Learn flexbox the easy way: https://www.youtube.com/watch?v=u044iM9xsWU
