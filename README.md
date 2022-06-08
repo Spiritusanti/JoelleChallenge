@@ -13,6 +13,8 @@ Complete a fully functional website devoted to cats!
   - Kevin Powell Learn flexbox the easy way: https://www.youtube.com/watch?v=u044iM9xsWU
   - MDN Grid lesson: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout
   - MDN flexbox lesson: https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
+  - flexbox froggy: https://flexboxfroggy.com/
+  - css games: https://codepip.com/games/grid-garden/
 ##### tasks:
 1. Implement semantic HTML using appropriate tags for the content being displayed.
 2. Move hero image from a css background image to an html img tag. Use position: absolute and z-index to mirror figma layout. 
