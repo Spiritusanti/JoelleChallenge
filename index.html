@@ -9,36 +9,42 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- no need to wrap the entire header in a <ul> tag as the elements serve different purposes. Better to use the <header> tag as it is more semantic and then establish sections for the logo and nav elements -->
-    <div class="grid-container">
-      <div class ="logo">
+    <!-- changed div to header tag and added header class -->
+    <header class="header">
+      <div class="logo">
         <!-- href="/"  no need to direct to index.html we can route to the root directory "/" instead-->
-        <a href="/index.html">
-          <img alt="Qries" src="./assests/Cats.png" width="100" height="100"/>
+        <a href="/">
+          <img alt="Qries" src="./assests/Cats.png" width="100" height="100" />
         </a>
       </div>
-      <!-- this segment should be wrapped in a <nav> tag for semantic html and SEO. We can also use either css flexbox or grid to establish positions on the page instead of floats  -->
-      <div class="nav"><a href="#home">Home</a></div>
-      <div class="nav"><a href="#about">About</a></div>
-      <div class="nav"><a href="#cats">Cats</a></div>
-      <div class="nav"><a href="#contact">Contact</a></div>
-    </div>
-    <!-- can be moved to style.css to maintain separation of concerns
-      In this case it would be better to use an img element instead of a background image to ensure consistent behavior across device types.
-    -->
-    <background>
-      <img src="./assests/hero-image.jpg" alt='background img cat' width="980" height="580">
-    </background>
-    
-    <!-- <legend></legend> makes more semantic sense here than div and also works better with the image element -->
-    <legend>
-      <a href="https://unsplash.com/@kotecinho?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-        >Kote Puerto</a>
-      on
-      <a href="https://unsplash.com/s/photos/cat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-        >Unsplash</a>
-    </legend>
-
+      <!-- added nav tag to wrap navigation links  -->
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#cats">Cats</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <!-- added main tag to denote main content. Added section tag for hero section content -->
+    <main>
+      <section class="hero-section">
+        <img
+          src="./assests/hero-image.jpg"
+          alt="background img cat"
+        />
+        <legend>
+          <a
+            href="https://unsplash.com/@kotecinho?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Kote Puerto</a
+          >
+          on
+          <a
+            href="https://unsplash.com/s/photos/cat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Unsplash</a
+          >
+        </legend>
+      </section>
+    </main>
     <script>
       // add links to scripts here!
     </script>
