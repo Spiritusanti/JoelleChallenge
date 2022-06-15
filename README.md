@@ -2,9 +2,25 @@
 
 ### Goal:
 Complete a fully functional website devoted to cats!
+###### permanent resources
+- figma: https://www.figma.com/file/SGsrBCfXKurKsuzFbzSr70/Joelle---week-1-challenge?node-id=0%3A1
+
+#### Week 3 challenge
+- create new section based on updated figma design figma design
+
+##### resources:
+- new image added to assests folder
+- use of CSS psuedo elements: https://www.w3schools.com/CSS/css_pseudo_elements.asp
+
+##### tasks:
+1. create new section element for the About section
+2. Use CSS grid to create a two column layout
+   1. Add text elements to first column
+   2. add image element to second column
+3. style with CSS to match figma template. 
 
 #### week 2 challenge
--implement changes to existing work based on feedback
+- implement changes to existing work based on feedback
 
 ##### resources:
 - semantic html: https://www.w3schools.com/html/html5_semantic_elements.asp, and https://developer.mozilla.org/en-US/docs/Learn/Accessibility/HTML
@@ -24,7 +40,6 @@ Complete a fully functional website devoted to cats!
 
 #### Week 1 Challenge
 ##### resources:
-- Figma design template: https://www.figma.com/file/SGsrBCfXKurKsuzFbzSr70/Joelle---week-1-challenge?node-id=0%3A1
 - all images are included in assests folder
 - any technical reference you need (MDN, W3C, StackOverflow, ect)
 ##### tasks: 
@@ -63,3 +78,6 @@ Goal here is to simulate a real world workflow so you will be submitting pull re
      1. follow the instructions from the video above
      2. make sure to outline any changes you made, raise issues, or ask questions in your commit message on Github!
      3. Let me know you submitted and then we can review your work before merging it into the main branch!
+
+
+  
